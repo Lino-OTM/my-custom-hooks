@@ -23,6 +23,5 @@ export const todoReducer = (initialState = [], action) => {
   }
 };
 
-// Siempre evitamos utilizar el .push para mutar el arreglo, en este caso usamos el operados spread.
-
+// Siempre evitamos utilizar el .push para mutar el arreglo, en este caso usamos el operador spread.
 // La funcion .filter no muta el arreglo, DEVUELVE uno nuevo
